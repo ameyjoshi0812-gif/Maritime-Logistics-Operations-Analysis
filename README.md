@@ -54,19 +54,25 @@ A focused analysis of the 2021 Suez Canal disruption, examining changes in cargo
 
 ### Executive Overview
 
-![Executive Overview](Executive_Overview.png)
+![Executive Overview](screenshots/Executive_Overview.png)
+
+
+
+
+
+
 
 ### Terminal Analysis
 
-![Terminal Analysis](Terminal_Analysis.png)
+![Terminal Analysis](screenshots/Terminal_Analysis.png)
 
 ### Vessel Analysis
 
-![Vessel Analysis](Vessel_Analysis.png)
+![Vessel Analysis](screenshots/Vessel_Analysis.png)
 
 ### Suez Effect / Time Analysis
 
-![Suez Effect / Time Analysis](Suez_Effect.png)
+![Suez Effect / Time Analysis](screenshots/Suez_Effect.png)
 
 ---
 
