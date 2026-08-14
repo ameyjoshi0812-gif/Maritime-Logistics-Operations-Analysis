@@ -51,22 +51,22 @@ Data Visualization & Dashboard Design
 
 Executive Overview
 
-
+![Executive Overview](screenshots/Executive_Overview.png)
 
 
 Terminal Analysis
 
-
+![Terminal Analysis](screenshots/Terminal_Analysis.png)
 
 
 Vessel Analysis
 
-
+![Vessel Analysis](screenshots/Vessel_Analysis.png)
 
 
 Suez Effect / Time Analysis
 
-
+![Suez Effect / Time Analysis](screenshots/Suez_Effect.png)
 
 
 📁 Repository Contents
