@@ -1,91 +1,103 @@
-🚢 Maritime Logistics Operations Analysis | Power BI
-📌 Project Overview
+# 🚢 Maritime Logistics Operations Analysis | Power BI
 
-This Power BI project analyzes maritime cargo movement data from 2021 to 2024 to identify operational bottlenecks, efficiency differences across terminals and vessel categories, and the impact of the 2021 Suez Canal disruption.
-The analysis focuses on understanding cargo movement duration and identifying opportunities to improve operational efficiency and support the goal of reducing movement times by 15%.
+## 📌 Project Overview
 
-🎯 Business Objectives
+This project analyzes maritime cargo movement data from **2021 to 2024** using **Microsoft Power BI**.
 
-Identify operational bottlenecks across terminals.
-Compare movement efficiency across regions and vessel categories.
-Analyze vessel and terminal-related factors affecting movement duration.
-Examine the impact of the 2021 Suez Canal disruption on cargo operations.
-Identify potential opportunities to reduce cargo movement times.
+The dashboard focuses on identifying operational bottlenecks, comparing efficiency across terminals, regions, and vessel categories, and analyzing the impact of the **2021 Suez Canal disruption** on cargo movement operations.
 
-📊 Dashboard Pages
+The analysis supports the business objective of identifying opportunities to improve operational efficiency and reduce cargo movement times.
 
-1️⃣ Executive Overview
+---
 
-A high-level view of maritime operations, including key KPIs, cargo movement trends, regional performance, and vessel category analysis.
+## 🎯 Business Objectives
 
-2️⃣ Terminal Analysis
+* Identify operational bottlenecks across terminals.
+* Compare movement efficiency across regions and vessel categories.
+* Analyze factors associated with longer cargo movement durations.
+* Examine the impact of the 2021 Suez Canal disruption.
+* Identify opportunities to reduce cargo movement times.
+
+---
+
+## 📊 Dashboard Pages
+
+### 1️⃣ Executive Overview
+
+Provides a high-level overview of maritime operations through key KPIs, cargo movement trends, regional performance, and vessel category analysis.
+
+### 2️⃣ Terminal Analysis
 
 Analyzes terminal performance to identify high-volume terminals, movement duration patterns, and potential operational bottlenecks.
 
-3️⃣ Vessel Analysis
+### 3️⃣ Vessel Analysis
 
 Examines operational performance across vessel categories and vessel age groups to understand their relationship with movement duration.
 
-4️⃣ Suez Effect / Time Analysis
+### 4️⃣ Suez Effect / Time Analysis
 
-A focused case study of the 2021 Suez Canal disruption, analyzing changes in cargo movement patterns and movement duration around the event.
+A focused analysis of the 2021 Suez Canal disruption, examining changes in cargo movement patterns and movement duration around the event.
 
-🔍 Key Analysis Areas
+---
 
-Terminal Performance — Comparison of cargo movements and movement duration across terminals.
+## 🛠️ Tools & Skills Used
 
-Regional Efficiency — Analysis of operational performance across AMER, APAC, EMEA, and LATAM.
+* **Microsoft Power BI**
+* **Power Query** — Data Cleaning & Transformation
+* **DAX** — Measures & Calculated Columns
+* **Data Modeling** — Star Schema
+* **Data Visualization & Dashboard Design**
 
-Vessel Analysis — Comparison of vessel categories and vessel age groups.
+---
 
-Suez Disruption — Analysis of operational changes surrounding the 2021 disruption.
+## 📸 Dashboard Preview
 
-🛠️ Tools & Skills Used
-Microsoft Power BI
-Power Query — Data cleaning and transformation
-DAX — Measures and calculated columns
-Data Modeling — Star schema
-Data Visualization & Dashboard Design
+### Executive Overview
 
-📸 Dashboard Preview
+![Executive Overview](Executive_Overview.png)
 
-Executive Overview
+### Terminal Analysis
 
-![Executive Overview](screenshots/Executive_Overview.png)
+![Terminal Analysis](Terminal_Analysis.png)
 
+### Vessel Analysis
 
-Terminal Analysis
+![Vessel Analysis](Vessel_Analysis.png)
 
-![Terminal Analysis](screenshots/Terminal_Analysis.png)
+### Suez Effect / Time Analysis
 
+![Suez Effect / Time Analysis](Suez_Effect.png)
 
-Vessel Analysis
+---
 
-![Vessel Analysis](screenshots/Vessel_Analysis.png)
+## 📁 Repository Contents
 
-
-Suez Effect / Time Analysis
-
-![Suez Effect / Time Analysis](screenshots/Suez_Effect.png)
-
-
-📁 Repository Contents
-
-Maritime-Logistics-PowerBI
+```text
+Maritime-Logistics-Operations-Analysis/
 │
-
-├── Maritime Logistics Dashboard.pbix
-
 ├── README.md
-
+├── Maritime Logistics Dashboard.pbix
+│
 ├── data/
-
+│   ├── dim_terminal.csv
+│   ├── dim_time.csv
+│   ├── dim_vessel.csv
+│   └── fact_cargo_movements.csv
+│
 ├── screenshots/
-
+│   ├── Executive_Overview.png
+│   ├── Terminal_Analysis.png
+│   ├── Vessel_Analysis.png
+│   └── Suez_Effect.png
+│
 └── challenge/
+    └── CHALLENGE_BRIEF.md
+```
 
-👤 Author
+---
 
-Amey Joshi
+## 👤 Author
+
+**Amey Joshi**
 
 Aspiring Data Analyst | Power BI | Data Analytics | Data Visualization
